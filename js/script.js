@@ -1,4 +1,4 @@
-const WHATSAPP_NUMERO = "569XXXXXXXX";
+const WHATSAPP_NUMERO = "56934173749";
 const INSTAGRAM_USUARIO = "bicius";
 
 const menuToggle = document.getElementById("menuToggle");
