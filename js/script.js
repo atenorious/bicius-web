@@ -1,5 +1,5 @@
 const WHATSAPP_NUMERO = "56934173749";
-const INSTAGRAM_USUARIO = "bicius";
+const INSTAGRAM_USUARIO = "bici.us";
 
 const menuToggle = document.getElementById("menuToggle");
 const nav = document.getElementById("nav");
