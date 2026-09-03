@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="BICIUS - Diseño 01 Obsidian">
+  <rect width="400" height="500" fill="#efe9dd"/>
+  <ellipse cx="200" cy="430" rx="110" ry="18" fill="#000000" opacity="0.25"/>
+  <path d="M120 150 L55 190 Q40 200 48 220 L85 300 Q95 315 112 305 L150 250 Z" fill="#1a1a1a"/>
+  <path d="M280 150 L345 190 Q360 200 352 220 L315 300 Q305 315 288 305 L250 250 Z" fill="#1a1a1a"/>
+  <path d="M140 140 Q140 110 170 105 L230 105 Q260 110 260 140 L268 340 Q268 365 244 368 L156 368 Q132 365 132 340 Z" fill="#1a1a1a"/>
+  <path d="M150 130 Q150 70 200 65 Q250 70 250 130 Q250 150 225 150 L200 175 L175 150 Q150 150 150 130 Z" fill="#000000"/>
+  <rect x="160" y="255" width="80" height="55" rx="10" fill="#000000" opacity="0.55"/>
+  <line x1="188" y1="150" x2="182" y2="205" stroke="#c9c2b2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="212" y1="150" x2="218" y2="205" stroke="#c9c2b2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="182" cy="210" r="4" fill="#c9c2b2"/>
+  <circle cx="218" cy="210" r="4" fill="#c9c2b2"/>
+  <rect x="132" y="348" width="136" height="20" rx="6" fill="#000000"/>
+  <rect x="55" y="292" width="42" height="16" rx="6" fill="#000000" transform="rotate(-18 76 300)"/>
+  <rect x="303" y="292" width="42" height="16" rx="6" fill="#000000" transform="rotate(18 324 300)"/>
+</svg>
