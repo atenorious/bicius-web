@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BICIUS — Primera Colección</title>
+  <meta name="description" content="BICIUS, marca de ropa. Primera presentación: 3 diseños de polerones.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">BICIUS</a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#productos" class="nav__link">Productos</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="container hero__inner reveal">
+      <p class="hero__kicker">Primera presentación de productos</p>
+      <h1 class="hero__title">BICIUS</h1>
+      <p class="hero__subtitle">Tres diseños. Una primera colección hecha para empezar fuerte.</p>
+      <a href="#productos" class="btn btn--primary">Ver los polerones</a>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTOS ===================== -->
+  <section class="productos" id="productos">
+    <div class="container">
+      <h2 class="section-title reveal">Primera colección</h2>
+      <p class="section-subtitle reveal">3 polerones, edición inicial. Escríbenos por WhatsApp o Instagram para reservar el tuyo.</p>
+
+      <div class="productos__grid">
+
+        <!-- Producto 1 -->
+        <article class="card reveal">
+          <div class="card__img-wrap">
+            <img src="img/hoodie-1.svg" alt="Poleron BICIUS diseño Obsidian, color negro" class="card__img">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Obsidian</h3>
+            <p class="card__desc">Negro absoluto, corte oversize, algodón grueso.</p>
+            <p class="card__price">$29.990</p>
+            <a
+              href="#"
+              class="btn btn--whatsapp js-whatsapp"
+              data-producto="Obsidian"
+              data-precio="$29.990"
+            >
+              Comprar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Producto 2 -->
+        <article class="card reveal">
+          <div class="card__img-wrap">
+            <img src="img/hoodie-2.svg" alt="Poleron BICIUS diseño Crema, color crema" class="card__img">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Crema</h3>
+            <p class="card__desc">Tono cálido y neutro, ideal para combinar con todo.</p>
+            <p class="card__price">$29.990</p>
+            <a
+              href="#"
+              class="btn btn--whatsapp js-whatsapp"
+              data-producto="Crema"
+              data-precio="$29.990"
+            >
+              Comprar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Producto 3 -->
+        <article class="card reveal">
+          <div class="card__img-wrap">
+            <img src="img/hoodie-3.svg" alt="Poleron BICIUS diseño Grafito, color gris" class="card__img">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Grafito</h3>
+            <p class="card__desc">Gris medio, silueta relajada, básico versátil.</p>
+            <p class="card__price">$29.990</p>
+            <a
+              href="#"
+              class="btn btn--whatsapp js-whatsapp"
+              data-producto="Grafito"
+              data-precio="$29.990"
+            >
+              Comprar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== NOSOTROS ===================== -->
+  <section class="nosotros" id="nosotros">
+    <div class="container nosotros__inner">
+      <div class="reveal">
+        <h2 class="section-title">Sobre BICIUS</h2>
+        <p class="nosotros__text">
+          BICIUS nace como una marca de ropa enfocada en piezas simples, cómodas
+          y bien hechas. Esta es nuestra primera presentación: tres polerones
+          pensados para durar en el clóset, no solo una temporada. Estamos
+          empezando, y cada pedido de esta primera colección nos ayuda a seguir
+          creciendo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO / FOOTER ===================== -->
+  <footer class="footer" id="contacto">
+    <div class="container footer__inner">
+      <div>
+        <p class="logo logo--footer">BICIUS</p>
+        <p class="footer__text">Escríbenos para reservar tu poleron de la primera colección.</p>
+      </div>
+
+      <div class="footer__links">
+        <a
+          href="#"
+          class="footer__link js-whatsapp"
+          data-producto=""
+          data-precio=""
+        >WhatsApp</a>
+        <a href="https://instagram.com/bicius" target="_blank" rel="noopener" class="footer__link">Instagram @bicius</a>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; <span id="year"></span> BICIUS. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
